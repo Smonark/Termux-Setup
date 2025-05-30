@@ -65,6 +65,7 @@ MySQL (phpMyAdmin):
 http://0.0.0.0:8080
 ```
 Default username: ``` root ```
+
 Default password:``` root ```
 
 Apache2 Server:
@@ -176,6 +177,7 @@ http://localhost:8080/bWAPP/login.php
 ```
 🔑 Default Credentials
 Username: `bee`
+
 Password: `bug`
 
 ## 🔄 Reset Changes (Optional)
