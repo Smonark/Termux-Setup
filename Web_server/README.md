@@ -1,4 +1,4 @@
-# 📦 bWAPP Installation and Setup (Termux + tamp)
+# 🐝 bWAPP Installation and Setup (Termux + tamp)
 
 This guide explains how to set up the **bWAPP** web vulnerability practice environment in Termux using the tamp server.
 
@@ -176,6 +176,7 @@ And Change the URL to:
 http://localhost:8080/bWAPP/login.php
 ```
 🔑 Default Credentials
+
 Username: `bee`
 
 Password: `bug`
