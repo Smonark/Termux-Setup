@@ -1,8 +1,7 @@
 ## AUTOMATIC 
 ```
-git clone 
-chmod +x install_bwapp.sh
-bash install_bwapp.sh
+chmod +x bwapp.sh
+bash  bwapp.sh
 ```
 ## MANUALLY INSTALL `BWAPP`
 
@@ -25,13 +24,15 @@ This guide explains how to set up the **bWAPP** web vulnerability practice envir
 
 ```bash
 cd /storage/downloads/Acode
+
 mkdir Server
+
 cd
 ```
 ## ⚙️ 2. Clone tamp Repository
 ```bash
-git clone https://github.com/1Tech-
-X/Tamp.git
+git clone https://github.com/1Tech-X/Tamp.git
+
 cd Tamp
 ```
 ## ⚙️ 3. Install tamp
@@ -50,7 +51,9 @@ Set the tamp installation directory to:
 ## ⚙️ 4. Verify tamp Installation
 ```bash
 tamp -h
+
 tamp -start
+
 ```
 🟢 Note:
 
@@ -99,6 +102,7 @@ Navigate to the bWAPP admin folder:
 
 ```bash
 cd bWAPP/admin
+
 nano settings.php
 ```
 🔧 Edit **settings.php**:
