@@ -72,11 +72,14 @@ Apache2 Server:
 http://localhost:8080
 ```
 ⚙️ 6. Download bWAPP
-(i) ```cd /storage/downloads/Acode/Server 
+(i) ```
+cd /storage/downloads/Acode/Server 
 ```
-(ii)```
+(ii)
+```
 wget https://sourceforge.net/projects/bwapp/files/bWAPP/bWAPPv2.2/bWAPPv2.2.zip/download -O bWAPP.zip
 ```
-(iii)```
+(iii)
+```
 unzip bWAPP.zip
 ```
