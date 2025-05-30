@@ -291,9 +291,13 @@ source ~/.zshrc
 You now have a customized Zsh experience in Termux with:
 
 ✨ Oh My Zsh
+
 ✨ Autosuggestions
+
 ✨ Syntax highlighting
+
 ✨ Autocomplete
+
 ✨ Fast syntax highlighting
 
 Enjoy your powerful terminal!
