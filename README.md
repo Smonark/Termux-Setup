@@ -144,6 +144,7 @@ Install Ruby with the following command:
 ```bash
 apt install ruby -y
 ```
+
 Step 2: Check Ruby Version
 Verify the installation:
 
@@ -159,3 +160,14 @@ For example, to install the popular nokogiri gem for parsing HTML and XML:
 ```bash
 gem install nokogiri
 ```
+Step 4: Write and Run a Ruby Script
+Create a file named hello.rb with this content:
+
+```
+puts "Hello from Ruby in Termux!"
+```
+Run the script:
+```bash
+ruby hello.rb
+```
+You should see:``Hello from Ruby in Termux!``
