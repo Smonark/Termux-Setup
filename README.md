@@ -301,3 +301,83 @@ You now have a customized Zsh experience in Termux with:
 ✨ Fast syntax highlighting
 
 Enjoy your powerful terminal!
+
+## 🖤 Termux Customization: Shadow Theme & Banner
+
+This guide customizes your Termux environment with:
+
+✅ A custom Zsh theme (jonathan) ypu add another like:agnoster,random,etc.
+✅ A cool login banner
+✅ A personal touch with your username and other tweaks
+
+## 🛠️ Install Required Packages
+
+```bash
+apt update && apt upgrade -y
+
+apt install git python figlet -y
+
+pip install lolcat
+```
+## 📥 Clone Termux Banner Script
+
+```bash
+cd
+
+git clone https://github.com/Smonark/Termux-Banner-.git
+```
+**Note**: Customize your banner by editing the banner files in the cloned directory.
+
+## ⚙️ Customize the Zsh Shell
+📝 Edit .zshrc for the theme:
+
+```bash
+nano ~/.zshrc
+```
+🔎 Find:
+
+```bash
+ZSH_THEME="robbyrussell"
+```
+💡 Change it to:
+
+```bash
+ZSH_THEME="jonathan"
+```
+
+ **📝 Add these lines at the bottom of ``.zshrc``**:
+```bash
+# Expose Custom Banner and Username
+
+source ~/Termux-Banner-/banner.sh
+
+export USER="myusername"
+```
+## Further Customize the Zsh Theme
+📝 Edit the jonathan.zsh-theme file:
+
+```bash
+nano ~/.oh-my-zsh/themes/jonathan.zsh-theme
+```
+🔎 Find:
+
+```bash
+${PR_CYAN}%(!.%SROOT%s.%n)${PR_GREY}@${PR_GREEN}%m:%l\
+```
+💡 Replace with:
+```
+${PR_CYAN}%(!.%SROOT%s.Shadow)${PR_GREY}@${PR_MAGENTA}WINDOWS:%l\
+```
+Explanation: This change personalizes the prompt.
+
+Replaces the default username with "Shadow"
+
+Sets the hostname to "WINDOWS"
+
+You can change your according.
+
+## 🔄 Apply Changes
+
+```bash
+source ~/.zshrc
+```
