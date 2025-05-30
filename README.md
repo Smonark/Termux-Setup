@@ -130,3 +130,32 @@ java HelloWorld
 ```
 You should see:
 ```Hello, Termux Java!```
+
+# Ruby Setup and Usage in Termux
+
+This guide explains how to install Ruby on Termux and run a simple Ruby script.
+
+---
+
+Step 1: Install Ruby
+
+Install Ruby with the following command:
+
+```bash
+apt install ruby -y
+```
+Step 2: Check Ruby Version
+Verify the installation:
+
+```bash
+ruby --version
+```
+You should see output like:
+```ruby 3.x.x (date...) ...```
+Step 3: Install a Ruby Gem (Library)
+Ruby uses gem to manage libraries (called “gems”).
+For example, to install the popular nokogiri gem for parsing HTML and XML:
+
+```bash
+gem install nokogiri
+```
