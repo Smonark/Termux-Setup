@@ -85,3 +85,48 @@ Run the script with
 ```
 python example.py
 ```
+# Java Setup and Usage in Termux
+
+This guide explains how to install OpenJDK (Java Development Kit) in Termux and run a simple Java program.
+
+---
+
+Step 1: Install OpenJDK
+
+Install Java (OpenJDK 17) by running:
+
+```bash
+apt install openjdk-17 -y
+```
+Step 2: Check Java Version
+After installation, confirm it’s working:
+
+```bash
+java -version
+```
+You should see output showing the installed Java version, such as
+``openjdk version "17.x.x" ...``
+
+Step 3: Write a Java Program
+Create a simple Java file named HelloWorld.java:
+```
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Termux Java!");
+    }
+}
+```
+Step 4: Compile and Run the Program
+Compile the Java file:
+
+```bash
+javac HelloWorld.java
+```
+This creates a HelloWorld.class file.
+Run the compiled program:
+
+```bash
+java HelloWorld
+```
+You should see:
+```Hello, Termux Java!```
