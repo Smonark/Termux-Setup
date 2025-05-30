@@ -236,23 +236,11 @@ Navigate to the install script and run it:
 
 ```bash
 cd ohmyzsh/tools
+
 ./install.sh
 ```
-🎨 4️⃣ Customize Oh My Zsh Theme
-Open .zshrc:
 
-```bash
-
-nano ~/.zshrc
-```
-Find the line:
-
-```bash
-ZSH_THEME="robbyrussell"
-```
-You can replace `robbyrussell` with any theme you prefer (like `agnoster` or `powerlevel10k` if installed).
-
-## 🚀 5️⃣ Add Essential Zsh Plugins
+## 🚀 4️⃣ Add Essential Zsh Plugins
 🔹 zsh-autosuggestions
 
 ```bash
@@ -273,7 +261,7 @@ git clone https://github.com/marlonrichert/zsh-autocomplete.git ${ZSH_CUSTOM:-~/
 ```bash
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
 ```
-## ⚙️ 6️⃣ Enable Plugins in .zshrc
+## ⚙️ 5️⃣ Enable Plugins in .zshrc
 Open .zshrc:
 
 ```bash
@@ -292,14 +280,14 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete fast-s
 ```
 Save and exit with **`Ctrl + X` ,`Y,`or` Enter`**.
 
-## 🔄 7️⃣ Apply Changes
+## 🔄 6️⃣ Apply Changes
 
 Reload your .zshrc:
 
 ```bash
 source ~/.zshrc
 ```
-## ✅ 8️⃣ Done!
+## ✅ 7️⃣  Done!
 You now have a customized Zsh experience in Termux with:
 
 ✨ Oh My Zsh
