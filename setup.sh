@@ -43,4 +43,5 @@ echo "📦 Displaying all installed packages and their versions:"
 dpkg -l | grep -E 'termux-api|wget|curl|git|python|openjdk-17|ruby|zsh' | awk '{print $2 " - " $3}'
 
 echo "✅ All set! Reload with: source ~/.zshrc or restart Termux."
+
 source ~/.zshrc
