@@ -2,6 +2,8 @@
 
 This file explains the purpose and features of each command used for maintaining and setting up Termux on Android.
 
+## MANUAL
+
 ## Commands and Their Functions 
 
 **`apt update`**  
@@ -171,3 +173,124 @@ Run the script:
 ruby hello.rb
 ```
 You should see:``Hello from Ruby in Termux!``
+
+# ⚡ Termux Zsh Customization
+
+This guide will help you **customize your Termux shell** using Zsh and Oh My Zsh, with essential plugins for a powerful and aesthetic terminal experience.
+
+---
+
+## 🚀 1️⃣ Install Zsh
+
+```bash
+apt update && apt install zsh -y
+```
+## 🔧 2️⃣ Make Zsh Your Default Shell
+Add the following to your **.bashrc** and **.profile**:
+
+```bash
+echo "chsh -s zsh" >> ~/.bashrc
+
+echo "chsh -s zsh" >> ~/.profile
+```
+Then change your default shell:
+```bash
+chsh
+
+zsh
+```
+Check your default shell:
+```
+echo $SHELL
+```
+
+Exit the terminal:
+
+```bash
+exit
+```
+Re-open Termux, and Zsh will be your default shell.
+
+## ✨ 3️⃣ Install Oh My Zsh
+Clone the Oh My Zsh repository:
+
+```bash
+git clone https://github.com/ohmyzsh/ohmyzsh.git
+```
+Navigate to the install script and run it:
+
+```bash
+cd ohmyzsh/tools
+./install.sh
+```
+🎨 4️⃣ Customize Oh My Zsh Theme
+Open .zshrc:
+
+```bash
+
+nano ~/.zshrc
+```
+Find the line:
+
+```bash
+ZSH_THEME="robbyrussell"
+```
+You can replace `robbyrussell` with any theme you prefer (like `agnoster` or `powerlevel10k` if installed).
+
+## 🚀 5️⃣ Add Essential Zsh Plugins
+🔹 zsh-autosuggestions
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+🔹 zsh-syntax-highlighting
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+🔹 zsh-autocomplete
+
+```bash
+git clone https://github.com/marlonrichert/zsh-autocomplete.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autocomplete
+```
+🔹 fast-syntax-highlighting
+
+```bash
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+```
+## ⚙️ 6️⃣ Enable Plugins in .zshrc
+Open .zshrc:
+
+```bash
+
+nano ~/.zshrc
+```
+Find the line:
+
+```bash
+plugins=(git)
+```
+And change it to include your plugins:
+
+```bash
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete fast-syntax-highlighting)
+```
+Save and exit with **`Ctrl + X` ,`Y,`or` Enter`**.
+
+## 🔄 7️⃣ Apply Changes
+
+Reload your .zshrc:
+
+```bash
+source ~/.zshrc
+```
+## ✅ 8️⃣ Done!
+You now have a customized Zsh experience in Termux with:
+
+✨ Oh My Zsh
+✨ Autosuggestions
+✨ Syntax highlighting
+✨ Autocomplete
+✨ Fast syntax highlighting
+
+Enjoy your powerful terminal!
