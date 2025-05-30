@@ -10,7 +10,7 @@ This file explains the purpose and features of each command used for maintaining
 chmod +x setup.sh
 ```
 
-3️⃣ Run it:
+2️⃣  Run it:
 
 ```bash
 
