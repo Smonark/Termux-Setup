@@ -85,3 +85,27 @@ wget https://sourceforge.net/projects/bwapp/files/bWAPP/bWAPPv2.2/bWAPPv2.2.zip/
 ```
 unzip bWAPP.zip
 ```
+⚙️ 7. Configure bWAPP Database Connection
+Navigate to the bWAPP admin folder:
+
+```bash
+cd bWAPP/admin
+nano settings.php
+```
+🔧 Edit settings.php:
+Change:
+
+```
+$db_server = 'localhost';
+```
+to:
+
+```
+$db_server = '127.0.0.1:3306';
+```
+Add:
+```
+$db_password = 'bWAPP';
+```
+💾 Save the file with:
+Ctrl + X, then Y, then Enter
