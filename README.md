@@ -342,7 +342,7 @@ cd
 
 git clone https://github.com/Smonark/Termux-Banner-.git
 ```
-**Note**: Customize your banner by editing the banner files in the cloned directory [Click here](git clone https://github.com/Smonark/Termux-Banner-.git) .
+**Note**: Customize your banner by editing the banner files in the cloned directory [Click here(git clone https://github.com/Smonark/Termux-Banner-.git) .
 
 ## ⚙️ Customize the Zsh Shell
 📝 Edit .zshrc for the theme:
@@ -398,4 +398,4 @@ You can change your according.
 source ~/.zshrc
 ```
 ## image 
-[![CUSTOMIZE TERMUX] (https://github.com/Smonark/Termux-Setup/blob/main/img/Banner.jpg)]
+[![CUSTOMIZE TERMUX] (https://github.com/Smonark/Termux-Setup/blob/main/img/Banner.jpg)
