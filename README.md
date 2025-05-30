@@ -2,6 +2,21 @@
 
 This file explains the purpose and features of each command used for maintaining and setting up Termux on Android.
 
+## AUTO INSTALL 
+
+1️⃣ Make it executable:
+
+```bash
+chmod +x full_setup.sh
+```
+
+3️⃣ Run it:
+
+```bash
+
+./full_setup.sh
+```
+
 ## MANUAL
 
 ## Commands and Their Functions 
