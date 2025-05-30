@@ -82,4 +82,6 @@ print("Status Code:", response.status_code)
 print("Response JSON:", response.json())
 ```
 Run the script with
-```python example.py```
+```
+python example.py
+```
