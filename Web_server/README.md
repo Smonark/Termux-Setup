@@ -71,7 +71,8 @@ Apache2 Server:
 ```
 http://localhost:8080
 ```
-⚙️ 6. Download bWAPP
+⚙️ 6. Download bWAPP 
+
 *(i)*
 ```
 cd /storage/downloads/Acode/Server 
