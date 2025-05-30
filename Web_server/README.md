@@ -8,7 +8,9 @@ This guide explains how to set up the **bWAPP** web vulnerability practice envir
 
 - Termux installed and set up
 - `git`, `wget`, `unzip` and `nano` installed
-
+```apt update && apt upgrade
+  apt install git wget unzip nano
+```
 ---
 
 ⚙️ 1. Prepare Directory Structure
@@ -49,4 +51,32 @@ To stop the server:
 bash
 ```
 tamp -stop
+```
+if you show any error type :
+```bash
+tamp -r
+```
+It's To fix all errors
+⚙️ 5. Verify Server Access in Browser
+Open your browser and visit:
+
+MySQL (phpMyAdmin):
+```
+http://0.0.0.0:8080
+```
+Default username: ``` root ```
+Default password:``` root ```
+
+Apache2 Server:
+```
+http://localhost:8080
+```
+⚙️ 6. Download bWAPP
+(i) ```cd /storage/downloads/Acode/Server 
+```
+(ii)```
+wget https://sourceforge.net/projects/bwapp/files/bWAPP/bWAPPv2.2/bWAPPv2.2.zip/download -O bWAPP.zip
+```
+(iii)```
+unzip bWAPP.zip
 ```
