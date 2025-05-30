@@ -35,11 +35,6 @@ cd bWAPP/admin
 sed -i "s/\$db_server = 'localhost';/\$db_server = '127.0.0.1:3306';/" settings.php
 echo "\$db_password = 'bWAPP';" >> settings.php
 
-# Edit install.php to bypass errors
-cd ..
-sed -i 's/if(!mysqli_select_db(\$link, "bWAPP"))/\/\/ if(!mysqli_select_db(\$link, "bWAPP"))/' install.php
-sed -i 's/die("Connection failed: " \. \$link->connect_error);/die("Connection failed: " . \$link->connect_error); } else {/' install.php
-sed -i 's/else/\/\/ else/' install.php
-
 echo "✅ bWAPP automated install completed!"
 echo "👉 Open browser at http://localhost:8080/bWAPP/install.php to finish setup."
+echo "😭 any error show if you see manual installation point 9,10 or 11 ."
