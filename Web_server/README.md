@@ -193,5 +193,5 @@ Username: `bee`
 
 Password: `bug`
 
-## 🔄 Reset Changes (Optional)
+## 🔄 11.Reset Changes (Optional)
 If needed, you can reopen **install.php** and reset all edits back to their original state.
