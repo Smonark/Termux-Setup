@@ -398,4 +398,4 @@ You can change your according.
 source ~/.zshrc
 ```
 ## image 
-[![After Customize] (https://github.com/Smonark/Termux-Setup/blob/main/img/Banner.jpg"Termux login banner")]
+[![CUSTOMIZE TERMUX] (https://github.com/Smonark/Termux-Setup/blob/main/img/Banner.jpg)]
