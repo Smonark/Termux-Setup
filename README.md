@@ -4,17 +4,33 @@ This file explains the purpose and features of each command used for maintaining
 
 ## AUTO INSTALL 
 
+
+0️⃣ Clone repository in Termux 
+
+```
+apt update && apt upgrade 
+
+apt install git
+
+git clone https://github.com/Smonark/Termux-Setup.git
+```
+
 1️⃣ Make it executable:
 
 ```bash
-chmod +x setup.sh
+chmod +x setup.sh customize.sh
 ```
 
-2️⃣  Run it:
+2️⃣  first Run this file :
 
 ```bash
 
-./setup.sh
+bash setup.sh
+```
+Than second run :
+
+```
+bash customize.sh
 ```
 
 ## MANUAL
