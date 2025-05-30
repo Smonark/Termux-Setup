@@ -129,7 +129,7 @@ Open your browser and go to:
 ```bash
 http://localhost:8080/bWAPP/install.php
 ```
-## 9. If you see errors in the browser:
+## ⚠️ 9. If you see errors in the browser:
 Return to Termux:
 
 ```bash
