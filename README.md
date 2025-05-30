@@ -58,9 +58,28 @@ This guide shows how to install Python on Termux and run a simple Python script 
 
 ---
 
-## Step 1: Install Python
+ Step 1: Install Python
 
 Run the command below to install Python:
 
 ```bash
 apt install python -y
+```
+Step 2: Install Useful Libraries
+Use pip to install libraries. For example, to install the requests library:
+
+```bash
+pip install requests
+```
+Step 3: Write and Run a Python Script
+Create a file named example.py with the following content:
+
+```
+import requests
+
+response = requests.get('https://api.github.com')
+print("Status Code:", response.status_code)
+print("Response JSON:", response.json())
+```
+Run the script with
+```python example.py```
