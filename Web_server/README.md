@@ -92,7 +92,7 @@ Navigate to the bWAPP admin folder:
 cd bWAPP/admin
 nano settings.php
 ```
-🔧 Edit settings.php:
+🔧 Edit **settings.php**:
 Change:
 
 ```
@@ -108,4 +108,11 @@ Add:
 $db_password = 'bWAPP';
 ```
 💾 Save the file with:
-Ctrl + X, then Y, then Enter
+``Ctrl + X,`` then ``Y``, then ``Enter``
+
+⚙️ 8. Setup bWAPP Database in Browser
+Open your browser and go to:
+
+```bash
+http://localhost:8080/bWAPP/install.php
+```
