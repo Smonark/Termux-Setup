@@ -1,3 +1,11 @@
+## AUTOMATIC 
+```
+git clone 
+chmod +x install_bwapp.sh
+bash install_bwapp.sh
+```
+## MANUALLY INSTALL `BWAPP`
+
 # 🐝 bWAPP Installation and Setup (Termux + tamp)
 
 This guide explains how to set up the **bWAPP** web vulnerability practice environment in Termux using the tamp server.
