@@ -33,7 +33,7 @@ This Web Server included with these features:
 
 **Clear log files history**
 
-for more information check this link 🔗 (https://github.com/1Tech-X/Tamp.git)
+for more information check this [link 🔗] (https://github.com/1Tech-X/Tamp.git).
 
 ## 🪛 Prerequisites
 
