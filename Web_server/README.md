@@ -19,13 +19,20 @@ Tamp is use MariaDb the old MySQL server is also included PhpMyAdmin feature.
 
 This Web Server included with these features:
 
-**Apache2
-Php 8.0.6
-MariaDB
-PhpMyAdmin
-DocumentRoot Options
-Check http Access & Error Logs
-Clear log files history**
+**Apache2**
+
+**Php 8.0.6**
+
+**MariaDB**
+
+**PhpMyAdmin**
+
+**DocumentRoot Options**
+
+**Check http Access & Error Logs**
+
+**Clear log files history**
+
 for more information check this link 🔗 (https://github.com/1Tech-X/Tamp.git)
 
 ## 🪛 Prerequisites
